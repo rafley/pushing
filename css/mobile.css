@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    #main-nav .social {
+        display: none;
+    }
+    
+    #main-nav .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    
+    #main-nav ul, #main-nav .logo {
+        justify-self: center;
+    }
+}
